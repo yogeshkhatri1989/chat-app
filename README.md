@@ -29,3 +29,4 @@ App is deployed at: https://chat-assignment-26be3.web.app/
 
 - Message Limit is not added, so all messages for the selected user are rendered.
 - No auth, so username is itself being used as authorization token.
+- Users list is not sorted as per latest message
