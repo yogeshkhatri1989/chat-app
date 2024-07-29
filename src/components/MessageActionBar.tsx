@@ -38,7 +38,7 @@ const MessageActionBar = ({ emojiPicker, setEmojiPicker }: MessageActionBarProps
     const file = e.target.files[0];
     try {
       await sendImageMessage(file, user, selectedUser)
-      setFileUploading(true);
+      setFileUploading(false);
     } catch (error) {
       console.error(error);
       setFileUploading(false);
